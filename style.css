@@ -1,0 +1,93 @@
+body{
+ 	background: #9DC08B;
+ 	color: #steelblue;
+ 	font-family: 'Lora', serif; 
+ 	font-size: 16px;
+ 	font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+  	color: #40513B;
+  	font-size: 36px;
+  	font-weight: 600;
+}
+h2 {
+  	color: #40513B;  
+  	font-size: 25px;
+  	font-weight: 400;
+}
+a {
+ 	text-decoration: white;
+ 	color: #skyblue;
+ 	font-weight:
+ 	font-size: 14px;
+}
+a:hover {
+	color: black;
+}
+
+ 
+.container {
+	width:720px;
+	margin:40px auto;
+}
+
+@media(max-width: 60px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color:#EDF1D6;
+	padding: 40px;
+	box-shadow: 0px 120px 30px rgba(0,0,0,0.1);
+	border-radius: 4px; 
+	margin: 20px 0px; 
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #609966;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 8px;
+}
+.btn-blue: hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #609966;
+}
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
